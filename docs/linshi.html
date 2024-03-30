@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>跳转页面</title>
 <style>
+.loading-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .loading,
 .loading > div {
   position: relative;
@@ -144,12 +151,14 @@
 </head>
 <body>
   <!-- 添加等待动画效果 -->
-  <div class="loading">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+  <div class="loading-wrapper">
+    <div class="loading">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
   
   <!-- 使用 JavaScript 实现页面跳转 -->
