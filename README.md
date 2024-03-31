@@ -1,2 +1,2 @@
 # ngskinTools-shuishan
-用于更新个人的ngskintools插件
+用于更新中文ngskintools插件
